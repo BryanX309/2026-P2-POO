@@ -16,7 +16,7 @@ public class Eje03
         double pi = 3.141592;
         int truncado = (int)pi; //3
 
-        //Metodos de Conversion
+        //Métodos de Conversion
         string numeroStr="42";
         int numero = int.Parse(numeroStr);
 

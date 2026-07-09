@@ -1,0 +1,15 @@
+info:
+  name: Prueba del Proyecto
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: http://localhost:5020
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

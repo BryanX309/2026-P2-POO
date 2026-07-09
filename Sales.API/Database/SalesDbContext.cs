@@ -1,0 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using Sales.API.Entities;
+
+namespace Sales.API.Database
+{
+    public class SalesDbContext : DbContext
+    {
+        public SalesDbContext(DbContextOptions options) : base(options)
+        {
+            
+        }
+
+        public DbSet<CategoryEntity> Categories {get; set;}
+    }
+}

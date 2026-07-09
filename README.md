@@ -7,7 +7,10 @@
 2. Aplicaciones de Consola con C#
 
 ## Crear Proyecto de .NET con C#
-para crear un proyecto de .NET con la plantilla de Consola ejecutar desde la terminal `dotnet new -n MiProyecto`
+para crear un proyecto de .NET con la plantilla de Consola ejecutar desde la terminal `dotnet new console -n MiProyecto`
+
+## Crear Proyecto de API con .NET 
+para crear un proyecto de .NET con la plantilla de Api ejecutar desde la terminal `dotnet new webapi -n MiProyecto`
 
 ## COnstruir el Proyecto
 se debe Ejecutar `dotnet build`

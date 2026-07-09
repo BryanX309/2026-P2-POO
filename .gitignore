@@ -423,3 +423,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore,dotnetcore,visualstudiocode,windows,images,video,audio
+
+Sales.API\appsettings.Development.json
+Sales.API\appsettings.json
+Sales.API\appsettings.template.json
